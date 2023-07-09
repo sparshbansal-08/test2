@@ -1,0 +1,119 @@
+body{
+    background-image: url("back.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.head{
+    font-size: 13px;
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+.head img{
+    height: 7vh;
+    padding: 10px;
+    margin-top: 3px;
+}
+#links ul{
+    display: flex;
+    margin-right: 20px;
+    gap: 10px;
+}
+#links ul li {
+    list-style: none;
+    margin: 0px 10px ;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: all .3s;
+}
+a:hover{
+    color: yellow;
+}
+.mains{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.main-cont p{
+    font-size: 70px;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+button{
+    margin-left: 110px;
+    padding:20px;
+    border-radius: 20px;
+    box-shadow: white 2px 2px;
+    transition: 1s ease;
+}
+button:hover{
+    box-shadow: none;
+}
+.why{
+    font-size: 20px;
+    background-color: white;
+    width: 100%;
+    font-size: 30px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    gap: 10px;
+    padding: 70px;
+}
+.play img{
+    width: 25vh;
+}
+.play{
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.free p{
+    font-size: 70px;
+}
+.select{
+    background-color: white;
+    padding: 20px;
+}
+.last h1{
+    font-size: 70px;
+}
+.last button{
+    margin-left: auto;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    
+}
+.spo{
+    display: flex;
+    gap: 10px;
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+}
+.footer ul{
+    list-style: none;
+}
+.spo img{
+    width: 30px;
+}
